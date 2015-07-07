@@ -7,7 +7,7 @@ namespace Omnipay\SagePay\Message;
  */
 class DirectAuthorizeRequest extends AbstractRequest
 {
-    protected $action = 'DEFERRED';
+    protected $action = 'AUTHENTICATE';
     protected $cardBrandMap = array(
         'mastercard' => 'mc',
         'diners_club' => 'dc'
